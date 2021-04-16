@@ -125,7 +125,7 @@ main {
   grid-gap: 26px;
 }
 
-.head__media div {
+.head__media_link {
   z-index: 2;
 }
 
@@ -184,10 +184,6 @@ main {
   z-index: 2;
 }
 
-.inna {
-  position: relative;
-}
-
 .head__block_desc {
   font-weight: 500;
   font-size: 16px;
@@ -207,6 +203,10 @@ main {
   line-height: 30px;
   letter-spacing: 0.01em;
   color: #ffffff;
+}
+
+.head-arrow {
+  z-index: 2;
 }
 
 .products {
